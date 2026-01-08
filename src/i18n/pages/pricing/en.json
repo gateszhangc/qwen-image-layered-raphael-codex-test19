@@ -1,0 +1,219 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "Pricing",
+    "title": "Pricing",
+    "description": "Choose the perfect plan for professional image expansion and background outpainting.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Monthly",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Annually",
+        "is_featured": true,
+        "label": "Save 30%"
+      }
+    ],
+    "items": [
+      {
+        "title": "Starter",
+        "description": "Perfect for trying out professional image expansion.",
+        "features_title": "Includes",
+        "features": [
+          "200 image expansion credits per month",
+          "Edge-aware canvas extension",
+          "Standard expansion quality",
+          "Before/after export",
+          "Personal use license",
+          "Email support"
+        ],
+        "interval": "month",
+        "amount": 499,
+        "currency": "USD",
+        "price": "$4.99",
+        "original_price": "$6.25",
+        "unit": "/ month",
+        "is_featured": false,
+        "tip": "Save 18% vs competitor!",
+        "button": {
+          "title": "Start enhancing",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "Image Describer Starter Monthly",
+        "credits": 200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Pro",
+        "description": "Best for teams expanding images frequently.",
+        "label": "Popular",
+        "features_title": "Everything in Starter, plus",
+        "features": [
+          "300 image expansion credits per month",
+          "Higher resolution uploads for clean outpainting",
+          "Priority processing",
+          "Batch enhancement (up to 4)",
+          "Prompt-assisted optimization",
+          "Commercial use license",
+          "Priority email support",
+          "Access to new features"
+        ],
+        "interval": "month",
+        "amount": 899,
+        "currency": "USD",
+        "price": "$8.99",
+        "original_price": "$11.25",
+        "unit": "/ month",
+        "is_featured": true,
+        "tip": "Save 20% vs competitor!",
+        "button": {
+          "title": "Get Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "Image Describer Pro Monthly",
+        "credits": 300,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Premium",
+        "description": "Maximum value for power users who need the fastest, highest-quality expansions.",
+        "features_title": "Everything in Pro, plus",
+        "features": [
+          "600 image expansion credits per month",
+          "8K upload support",
+          "Fastest processing",
+          "Batch enhancement (up to 10)",
+          "API access",
+          "White-label license",
+          "Dedicated support",
+          "Early access to features"
+        ],
+        "interval": "month",
+        "amount": 1499,
+        "currency": "USD",
+        "price": "$14.99",
+        "original_price": "$18.75",
+        "unit": "/ month",
+        "is_featured": false,
+        "tip": "Save 21% vs competitor!",
+        "button": {
+          "title": "Get Premium",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "Image Describer Premium Monthly",
+        "credits": 600,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Starter",
+        "description": "Perfect for trying out professional image expansion.",
+        "features_title": "Includes",
+        "features": [
+          "2,400 image expansion credits per year (200/month)",
+          "Edge-aware canvas extension",
+          "Standard expansion quality",
+          "Before/after export",
+          "Personal use license",
+          "Email support"
+        ],
+        "interval": "year",
+        "amount": 1999,
+        "currency": "USD",
+        "price": "$19.99",
+        "original_price": "$24.99",
+        "unit": "/ year",
+        "is_featured": false,
+        "tip": "Save 20% vs competitor + 67% vs monthly!",
+        "button": {
+          "title": "Start enhancing",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "Image Describer Starter Annually",
+        "credits": 2400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Pro",
+        "description": "Best for teams expanding images frequently.",
+        "label": "Popular",
+        "features_title": "Everything in Starter, plus",
+        "features": [
+          "3,600 image expansion credits per year (300/month)",
+          "Higher resolution uploads for clean outpainting",
+          "Priority processing",
+          "Batch enhancement (up to 4)",
+          "Prompt-assisted optimization",
+          "Commercial use license",
+          "Priority email support",
+          "Access to new features"
+        ],
+        "interval": "year",
+        "amount": 2499,
+        "currency": "USD",
+        "price": "$24.99",
+        "original_price": "$31.25",
+        "unit": "/ year",
+        "is_featured": true,
+        "tip": "Save 19% vs competitor + 62% vs monthly!",
+        "button": {
+          "title": "Get Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "Image Describer Pro Annually",
+        "credits": 3600,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Premium",
+        "description": "Maximum value for power users who need the fastest, highest-quality expansions.",
+        "features_title": "Everything in Pro, plus",
+        "features": [
+          "7,200 image expansion credits per year (600/month)",
+          "8K upload support",
+          "Fastest processing",
+          "Batch enhancement (up to 10)",
+          "API access",
+          "White-label license",
+          "Dedicated support",
+          "Early access to features"
+        ],
+        "interval": "year",
+        "amount": 2999,
+        "currency": "USD",
+        "price": "$29.99",
+        "original_price": "$37.50",
+        "unit": "/ year",
+        "is_featured": false,
+        "tip": "Save 20% vs competitor + 67% vs monthly!",
+        "button": {
+          "title": "Get Premium",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "Image Describer Premium Annually",
+        "credits": 7200,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

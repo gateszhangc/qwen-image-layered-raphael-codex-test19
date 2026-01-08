@@ -1,0 +1,494 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "Qwen Image Layered",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Qwen Image Layered"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Features",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "Blog",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "FAQ",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "Qwen Image Layered",
+    "highlight_text": "Qwen Image Layered",
+    "description": "Convert flat images into editable, transparent assets for Figma, Photoshop, and motion design in one click.",
+    "features": [
+      "2-8 layer separation",
+      "Transparent PNG/WebP exports",
+      "Prompt-guided isolation"
+    ],
+    "buttons": [
+      {
+        "title": "Free trial",
+        "url": "/#qwen-image-layered",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "/hero/1.png",
+      "alt": "Layered preview"
+    },
+    "images": [
+      {
+        "src": "/hero/1.png",
+        "alt": "Hero preview 1"
+      },
+      {
+        "src": "/hero/2.png",
+        "alt": "Hero preview 2"
+      },
+      {
+        "src": "/hero/3.png",
+        "alt": "Hero preview 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": "false",
+    "title": "Trusted by creators using modern stacks",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "true",
+    "name": "introduce",
+    "title": "A layered workspace for modern creators",
+    "label": "How it works",
+    "description": "Qwen Image Layered separates a flat image into independent layers you can edit, animate, and remix.",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "Upload a single image",
+        "description": "Start with JPG, PNG, or WebP and let the model analyze the scene.",
+        "icon": "RiNextjsFill"
+      },
+      {
+        "title": "Guide the separation",
+        "description": "Pick 2-8 layers and add a short prompt to steer what gets isolated.",
+        "icon": "RiDatabase2Line"
+      },
+      {
+        "title": "Export layers",
+        "description": "Download transparent PNG/WebP assets ready for design tools.",
+        "icon": "RiCloudyFill"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "true",
+    "name": "benefit",
+    "title": "The New Standard for Image Editing",
+    "label": "Benefits",
+    "description": "Stop fighting with pixels. Get structured, editable assets instantly.",
+    "items": [
+      {
+        "title": "Semantic Layer Separation",
+        "description": "Intelligently identifies and isolates distinct elements—text, objects, and backgrounds—into independent, pixel-perfect layers.",
+        "icon": "RiNextjsFill",
+        "image": {
+          "src": "/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "Smart Background Inpainting",
+        "description": "Automatically generates hidden details behind objects, ensuring every layer is complete and ready for animation or repositioning.",
+        "icon": "RiClapperboardAiLine",
+        "image": {
+          "src": "/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "Transparent exports",
+        "description": "Download PNG or WebP layers with alpha for production use.",
+        "icon": "RiCodeFill",
+        "image": {
+          "src": "/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "Layered examples",
+    "title": "See layered separation in action",
+    "description": "Original images split into clean foreground and background assets.",
+    "items": [
+      {
+        "title": "Product photos",
+        "highlight": "separate subject + backdrop",
+        "description": "Create clean cutouts and reusable backdrops for catalogs.",
+        "beforeSrc": "/before1.png",
+        "afterSrc": "/after1.png",
+        "beforeAlt": "Before expansion",
+        "afterAlt": "After expansion",
+        "reverse": false
+      },
+      {
+        "title": "Screenshots & UI",
+        "highlight": "split UI and background",
+        "description": "Get layers you can animate or replace without redoing masks.",
+        "beforeSrc": "/before2.png",
+        "afterSrc": "/after2.png",
+        "beforeAlt": "Before expansion",
+        "afterAlt": "After expansion",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "Qwen Image Layered in 3 steps",
+    "description": "Upload, choose your layer depth, then export transparent assets.",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "Upload your image",
+        "description": "Drop in a JPG, PNG, or WebP file and let the model analyze the scene.",
+        "image": {
+          "src": "/imgs/features/5.png"
+        }
+      },
+      {
+        "title": "Set layers + prompt",
+        "description": "Choose 2-8 layers and add a short prompt to guide what gets separated.",
+        "image": {
+          "src": "/imgs/features/7.png"
+        }
+      },
+      {
+        "title": "Export transparent layers",
+        "description": "Download PNG or WebP layers with alpha transparency, ready for Figma or Photoshop.",
+        "image": {
+          "src": "/imgs/features/8.png"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "Try Qwen Image Layered",
+    "description": "Upload an image and get separated layers ready for editing."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "Qwen Image Layered studio",
+    "description": "Upload once, tune layers, and download transparent assets.",
+    "disabled": false,
+    "upload": {
+      "title": "Drag image here",
+      "description": "Supports PNG, JPG, JPEG, WebP formats, max 10MB",
+      "buttonText": "Choose File",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "Edited Image",
+      "textListTitle": "Edit Settings",
+      "fontRecommendationTitle": "Suggested Effects",
+      "detectedFontLabel": "Current Effect",
+      "similarFontsLabel": "Other Effects",
+      "selectTextPrompt": "Select an edit effect to apply"
+    },
+    "actions": {
+      "reuploadText": "Re-upload"
+    },
+    "messages": {
+      "uploadSuccess": "Image uploaded successfully",
+      "uploadError": "Image upload failed",
+      "recognitionSuccess": "Analysis completed",
+      "recognitionError": "Analysis failed",
+      "fontRecognitionSuccess": "Image editing completed",
+      "fontRecognitionError": "Image editing failed",
+      "processing": "Processing..."
+    }
+  },
+  "feature": {
+    "name": "feature",
+    "title": "Everything you need for layered assets",
+    "description": "Purpose-built for separating images into clean, editable layers.",
+    "items": [
+      {
+        "title": "Layered decomposition",
+        "description": "Split a single image into multiple editable RGBA layers.",
+        "icon": "RiMusicLine"
+      },
+      {
+        "title": "Prompt-guided separation",
+        "description": "Describe what to isolate to reduce cleanup work.",
+        "icon": "RiKey2Fill"
+      },
+      {
+        "title": "Edge-aware transparency",
+        "description": "Keep fine details while separating layers cleanly.",
+        "icon": "RiDatabase2Line"
+      },
+      {
+        "title": "Flexible layer count",
+        "description": "Generate 2-8 layers depending on complexity.",
+        "icon": "RiCloudy2Fill"
+      },
+      {
+        "title": "PNG/WebP exports",
+        "description": "Download transparent assets optimized for design tools.",
+        "icon": "RiBarChart2Line"
+      },
+      {
+        "title": "Fast iteration",
+        "description": "Regenerate layers without rebuilding masks from scratch.",
+        "icon": "RiRobot2Line"
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "false",
+    "name": "stats",
+    "label": "Stats",
+    "title": "Built for layered workflows",
+    "description": "Go from a flat image to editable assets in minutes.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Layers per image",
+        "label": "2-8",
+        "description": "Choose your depth"
+      },
+      {
+        "title": "Export formats",
+        "label": "PNG/WebP",
+        "description": "Transparent assets"
+      },
+      {
+        "title": "Workflow steps",
+        "label": "3",
+        "description": "Upload -> Layer -> Export"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": "false",
+    "name": "testimonial",
+    "label": "Testimonial",
+    "title": "What teams say about Qwen Image Layered",
+    "description": "Clean layers, faster production, and less manual masking.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Lena Wu",
+        "label": "Marketplace Ops Lead",
+        "description": "We turn product photos into layered assets for campaigns in minutes.",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Marco Silva",
+        "label": "Graphic Designer",
+        "description": "Layer packs drop straight into Figma without manual masking.",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Anika Patel",
+        "label": "Photographer",
+        "description": "Separating subjects from backgrounds is now a one-click step.",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "James Rowe",
+        "label": "Product Designer",
+        "description": "Motion templates are faster when every layer is already clean.",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Sara Kim",
+        "label": "Agency Founder",
+        "description": "Layered exports keep our client deliverables consistent.",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "David Chen",
+        "label": "Developer",
+        "description": "We can separate UI screenshots for demos without rebuilding assets.",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Frequently asked questions",
+    "description": "Need help? Email support@qwen-image-layered.space.",
+    "items": [
+      {
+        "title": "What file types can I upload?",
+        "description": "JPG, PNG, and WebP up to 10MB."
+      },
+      {
+        "title": "How many layers can I generate?",
+        "description": "Choose 2-8 layers per image with the layer slider."
+      },
+      {
+        "title": "What output formats are supported?",
+        "description": "Download each layer as transparent PNG or WebP."
+      },
+      {
+        "title": "Are my uploads stored?",
+        "description": "Uploads and results are stored so you can preview and download them. See the Privacy Policy for details."
+      },
+      {
+        "title": "Can I control what gets separated?",
+        "description": "Yes, add a short prompt (e.g., \"subject, props, background\") to guide separation."
+      },
+      {
+        "title": "Is it free?",
+        "description": "Core features are free; higher resolutions and premium options may require a plan."
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "Start layering with Qwen Image Layered",
+    "description": "Upload an image and export clean, transparent layers in minutes.",
+    "buttons": [
+      {
+        "title": "Try for free",
+        "url": "/#qwen-image-layered",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "",
+      "description": "Professional layered image tool that turns flat images into editable assets in minutes.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Qwen Image Layered"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • Qwen Image Layered. All rights reserved.",
+    "nav": {
+      "items": [
+        {
+          "title": "About",
+          "children": [
+            {
+              "title": "Features",
+              "url": "/#feature",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Email",
+          "icon": "RiMailLine",
+          "url": "mailto:support@qwen-image-layered.space",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

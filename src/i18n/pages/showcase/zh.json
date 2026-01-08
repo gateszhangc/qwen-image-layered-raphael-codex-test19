@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "Image Describer 的图片扩展案例",
+    "description": "不同场景下的背景扩展、构图平衡与画质提升效果。",
+    "items": [
+      {
+        "title": "产品图扩展",
+        "description": "为电商增强扩展干净背景",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "极简界面截图",
+        "description": "增加留白放置文案，同时保持界面清晰",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "电商横幅",
+        "description": "扩展渐变背景以适配首屏横幅",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "Logo 版式",
+        "description": "扩展画布为多种比例，无需重做布局",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "海报修图",
+        "description": "补全缺失边缘同时保持光影一致",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "插画扩展",
+        "description": "为装裱和印刷扩展画布，不损失细节笔触",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "扫描件",
+        "description": "增加页边距并清理重叠标注",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "社交模板",
+        "description": "扩展背景让新文案留白更充足",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

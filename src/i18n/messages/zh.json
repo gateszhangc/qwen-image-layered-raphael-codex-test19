@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "title": "Qwen-Image-Layered | 免费 AI 图片编辑与增强工具",
+    "description": "Qwen-Image-Layered 支持上传照片、截图或任何图片，使用 AI 技术快速编辑、增强和变换图片效果。",
+    "keywords": "qwen-image-layered, qwen image layered, ai 图片编辑, 图片增强, 照片编辑器, ai 图片工具, 图片变换, 智能图片编辑, 在线照片编辑"
+  },
+  "user": {
+    "sign_in": "登录",
+    "sign_out": "退出登录",
+    "credits": "额度",
+    "api_keys": "API 密钥",
+    "my_orders": "我的订单",
+    "user_center": "用户中心",
+    "admin_system": "管理后台"
+  },
+  "sign_modal": {
+    "sign_in_title": "登录 Qwen-Image-Layered",
+    "sign_in_description": "登录您的 Qwen-Image-Layered 账户，使用 AI 编辑和增强图片",
+    "sign_up_title": "加入 Qwen-Image-Layered",
+    "sign_up_description": "创建您的 Qwen-Image-Layered 账户",
+    "email_title": "邮箱",
+    "email_placeholder": "请输入您的邮箱地址",
+    "password_title": "密码",
+    "password_placeholder": "请输入您的密码",
+    "forgot_password": "忘记密码？",
+    "or": "或",
+    "continue": "进入 Qwen-Image-Layered",
+    "no_account": "初次使用 Qwen-Image-Layered？",
+    "email_sign_in": "使用邮箱登录",
+    "google_sign_in": "使用 Google 继续",
+    "github_sign_in": "使用 GitHub 继续",
+    "close_title": "关闭",
+    "cancel_title": "取消"
+  },
+  "my_orders": {
+    "title": "我的订单",
+    "description": "在 Qwen-Image-Layered 的订单记录。",
+    "no_orders": "未找到订单",
+    "tip": "",
+    "activate_order": "激活订单",
+    "actived": "已激活",
+    "join_discord": "加入 Discord",
+    "read_docs": "阅读文档",
+    "table": {
+      "order_no": "订单号",
+      "email": "邮箱",
+      "product_name": "产品名称",
+      "amount": "金额",
+      "paid_at": "支付时间",
+      "github_username": "GitHub 用户名",
+      "status": "状态",
+      "manage_billing": "管理账单",
+      "interval": "周期",
+      "interval_month": "月付",
+      "interval_year": "年付",
+      "interval_one_time": "一次性"
+    }
+  },
+  "my_credits": {
+    "title": "我的积分",
+    "left_tip": "剩余积分: {left_credits}",
+    "no_credits": "没有积分记录",
+    "recharge": "充值",
+    "table": {
+      "trans_no": "交易号",
+      "trans_type": "交易类型",
+      "credits": "积分",
+      "updated_at": "更新时间",
+      "status": "状态",
+      "expired_at": "过期时间",
+      "created_at": "创建时间"
+    }
+  },
+  "api_keys": {
+    "title": "API 密钥",
+    "tip": "请妥善保管您的 API 密钥，避免泄露",
+    "no_api_keys": "没有 API 密钥",
+    "create_api_key": "创建 API 密钥",
+    "table": {
+      "name": "名称",
+      "key": "密钥",
+      "created_at": "创建时间"
+    },
+    "form": {
+      "name": "名称",
+      "name_placeholder": "API 密钥名称",
+      "submit": "提交"
+    }
+  },
+  "my_invites": {
+    "title": "我的邀请",
+    "description": "查看您的邀请记录",
+    "no_invites": "未找到邀请记录",
+    "my_invite_link": "我的邀请链接",
+    "edit_invite_link": "编辑邀请链接",
+    "copy_invite_link": "复制邀请链接",
+    "invite_code": "邀请码",
+    "invite_tip": "邀请朋友使用 Qwen-Image-Layered，享受奖励。",
+    "invite_balance": "邀请奖励余额",
+    "total_invite_count": "总邀请人数",
+    "total_paid_count": "已充值人数",
+    "total_award_amount": "总奖励金额",
+    "update_invite_code": "设置邀请码",
+    "update_invite_code_tip": "输入你的自定义邀请码",
+    "update_invite_button": "保存",
+    "no_orders": "需要先成为付费用户才能邀请朋友",
+    "no_affiliates": "你暂无邀请朋友的权限，请联系我们申请开通。",
+    "table": {
+      "invite_time": "邀请时间",
+      "invite_user": "邀请用户",
+      "status": "状态",
+      "reward_percent": "奖励比例",
+      "reward_amount": "奖励金额",
+      "pending": "已注册，未支付",
+      "completed": "已支付"
+    }
+  },
+  "feedback": {
+    "title": "反馈",
+    "description": "我们很乐意听取您对产品的看法或如何改进产品体验。",
+    "submit": "提交",
+    "loading": "提交中...",
+    "contact_tip": "其他联系方式",
+    "rating_tip": "您对 Qwen-Image-Layered 的看法如何？",
+    "placeholder": "在这里留下您的反馈..."
+  },
+  "outfit_generator": {
+    "title": "Qwen-Image-Layered - 图片编辑、增强与变换",
+    "description": "上传照片、截图或任何图片，使用 AI 技术编辑、增强、变换图片效果，快速提升图片质量。",
+    "upload_label": "上传图片",
+    "upload_placeholder": "点击或拖拽上传（JPG、PNG、GIF、WebP）",
+    "upload_required": "必填",
+    "prompt_label": "描述扩展需求（可选）",
+    "prompt_placeholder": "例如「左右扩展背景」「补全天空」「加宽画布做 banner」「主体四周留白」...",
+    "prompt_required": "可选说明",
+    "character_count": "{count}/500",
+    "generate_button": "开始扩展",
+    "generating_button": "扩展中...",
+    "credits_label": "你的积分",
+    "cost_label": "消耗: 每次扩展 {cost} 积分",
+    "insufficient_credits": "积分不足，请充值后继续图片扩展。",
+    "errors": {
+      "no_image": "请上传要扩展的图片",
+      "no_prompt": "请描述你想要的扩展方式",
+      "invalid_format": "仅支持 JPG、PNG、GIF、WebP 格式",
+      "file_too_large": "图片大小不能超过 5MB",
+      "generation_failed": "图片扩展失败，请重试",
+      "download_failed": "下载失败，请重试"
+    },
+    "success": {
+      "generated": "扩展后的图片已准备好！"
+    }
+  },
+  "outfit_gallery": {
+    "title": "最新扩展案例",
+    "description": "查看最近完成的图片扩展效果，支持前后对比与导出。",
+    "download_hint": "点击下载扩展后的图片",
+    "no_outfits": "暂时没有记录，上传图片开始扩展吧"
+  },
+  "nano_banana_pro": {
+    "title": "Qwen-Image-Layered - AI图像生成器",
+    "description": "使用Qwen-Image-Layered AI模型生成高质量图像，支持文本到图像和图像到图像两种模式",
+    "hero": {
+      "badge": "全新 Qwen-Image-Layered AI 图像生成器",
+      "title": "释放 AI 创意无限可能",
+      "subtitle": "使用 Qwen-Image-Layered 先进的 AI 模型，将您的想象转化为令人惊艳的视觉作品。支持文本到图像和图像到图像两种创作模式。",
+      "features": {
+        "text_to_image": "文本到图像",
+        "image_to_image": "图像到图像",
+        "high_quality": "高质量输出"
+      },
+      "buttons": {
+        "start_creating": "开始创作",
+        "view_gallery": "查看作品集"
+      },
+      "stats": {
+        "daily_images": "每日生成图像",
+        "satisfaction": "用户满意度",
+        "generation_time": "平均生成时间"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "图像到图像",
+        "text_to_image": "文本到图像"
+      },
+      "model": "模型",
+      "reference_images": "参考图像",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "拖拽图片到这里",
+        "or_click": "或点击浏览",
+        "supported_formats": "支持: JPEG, PNG, WebP (最大 10MB)",
+        "add_more": "添加更多"
+      },
+      "prompt": "提示词",
+      "prompt_placeholder_image": "描述如何转换图像...",
+      "prompt_placeholder_text": "描述你想要生成的图像...",
+      "aspect_ratio": "宽高比",
+      "resolution": "分辨率",
+      "output_count": "输出数量",
+      "output_count_range": "最小: {min}，最大: {max}",
+      "output_format": "输出格式",
+      "generate_button": "立即生成",
+      "generating": "生成中...",
+      "clear_images": "清除所有图片",
+      "output_gallery": "您的生成结果",
+      "view_all": "查看全部",
+      "generating_message": "正在创作您的杰作...",
+      "generating_submessage": "我们的 Qwen-Image-Layered 模型正在施展魔法。通常需要几秒钟时间。",
+      "example": "示例"
+    },
+    "my_creations": {
+      "title": "我的创作",
+      "description": "查看和管理您生成的AI图像——预览和下载只需一键",
+      "search_placeholder": "搜索创作...",
+      "view_all": "查看全部 ({count})",
+      "no_results": "未找到匹配的创作",
+      "no_results_message": "尝试使用不同的关键词搜索，或清空搜索框查看所有创作。",
+      "clear_search": "清空搜索",
+      "empty_state": "还没有创作",
+      "empty_message": "开始使用 Qwen-Image-Layered 创建您的第一个AI生成图像吧！",
+      "start_creating": "开始创作",
+      "download": "下载",
+      "delete": "删除",
+      "total_count": "共 {count} 个创作",
+      "search_results": "(搜索: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "文本到图像",
+        "IMAGE_TO_IMAGE": "图像到图像"
+      }
+    },
+    "errors": {
+      "enter_prompt": "请输入提示词",
+      "upload_reference": "图像到图像模式需要上传参考图像",
+      "generation_failed": "生成失败，请重试",
+      "upload_success": "图片上传成功",
+      "upload_failed": "上传失败",
+      "delete_success": "图像已删除",
+      "delete_failed": "删除失败，请重试",
+      "download_started": "开始下载",
+      "file_too_large": "文件大小不能超过 {size}MB",
+      "unsupported_format": "不支持的文件格式。支持的格式: {formats}",
+      "retry": "重试",
+      "dismiss": "关闭"
+    },
+    "loading": {
+      "default": "加载中...",
+      "generation": "正在创作您的杰作...",
+      "generation_message": "我们的 Qwen-Image-Layered 模型正在施展魔法。通常需要几秒钟时间。",
+      "upload": "正在上传图片...",
+      "upload_message": "请稍候，正在将您的图片上传到云端。"
+    }
+  },
+  "qwen_image_layered": {
+    "upload": {
+      "title": "上传图片",
+      "subtitle": "支持 JPG、PNG、WebP，最大 10MB",
+      "action": "上传",
+      "drop": "拖拽图片到这里",
+      "or_click": "或点击选择",
+      "supported_formats": "支持：JPEG、PNG、WebP（最大 10MB）"
+    },
+    "prompt": {
+      "label": "提示词",
+      "placeholder": "描述要分离的图层（如 主体、道具、背景）"
+    },
+    "advanced": {
+      "title": "高级设置",
+      "prompt_label": "提示词（可选）",
+      "prompt_placeholder": "请输入用于描述图片的提示词（可选）",
+      "negative_prompt_label": "负面提示词（可选）",
+      "negative_prompt_placeholder": "描述不希望出现的元素",
+      "seed": "随机种子",
+      "randomize_seed": "随机种子",
+      "guidance_scale": "真实引导系数",
+      "inference_steps": "推理步数",
+      "cfg_normalization": "启用 CFG 归一化",
+      "auto_caption_language": "无提示词时自动生成说明，True 为英文，False 为中文",
+      "layer_count": "图层数量",
+      "layer_range": "最少 {min}，最多 {max}",
+      "output_format": "导出格式"
+    },
+    "actions": {
+      "decompose": "Decompose!",
+      "sign_in_to_decompose": "Sign In to Decompose!",
+      "generating": "分解中..."
+    },
+    "results": {
+      "title": "结果",
+      "subtitle": "分层结果将在此处展示。",
+      "download_pptx": "下载 PPTX",
+      "download_zip": "下载 ZIP",
+      "packaging": "打包中...",
+      "generating_title": "正在分解图片...",
+      "generating_subtitle": "正在生成分层素材，请稍候。",
+      "layer_label": "图层 {index}",
+      "layer_description": "分层素材",
+      "empty_title": "暂无分层结果",
+      "empty_subtitle": "上传图片并点击 Decompose! 生成图层。",
+      "success": "图层生成成功！",
+      "download_ready": "下载已就绪"
+    },
+    "examples": {
+      "title": "示例",
+      "subtitle": "展示单张图片拆成多层的效果。",
+      "labels": {
+        "source": "原图",
+        "layer": "图层 {index}",
+        "sample": "示例 {index}"
+      },
+      "rows": {
+        "primary": "示例组 01",
+        "secondary": "示例组 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "请先上传参考图片",
+      "generation_failed": "生成失败，请重试",
+      "upload_success": "图片上传成功",
+      "upload_failed": "上传失败",
+      "download_failed": "下载失败，请重试"
+    }
+  }
+}

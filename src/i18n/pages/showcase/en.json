@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "Image expansion examples from our users",
+    "description": "See how Image Describer extends backgrounds, balances composition, and enhances quality across different types of images.",
+    "items": [
+      {
+        "title": "Product photo expansion",
+        "description": "Enhanced clean backdrop for marketplace display",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "Minimal UI screenshot",
+        "description": "Added breathing room for captions while keeping UI crisp",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "Ecommerce banner",
+        "description": "Expanded gradient background to fit hero layouts",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "Logo mock",
+        "description": "Extended canvas for multiple aspect ratios without rebuilding",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "Poster retouch",
+        "description": "Filled missing margins while keeping lighting intact",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "Artistic expansion",
+        "description": "Extended artwork for frames and prints without losing detail",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "Document scan",
+        "description": "Added margin and cleared overlaps on a scanned agreement",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "Social template",
+        "description": "Expanded background so new copy fits cleanly",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}
