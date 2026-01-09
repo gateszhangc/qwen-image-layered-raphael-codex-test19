@@ -31,6 +31,18 @@ export default async function RootLayout({
 
         <link rel="icon" href="/favicon.ico" />
 
+        {/* DNS Prefetch and Preconnect for faster external resource loading */}
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+
+        {/* Preconnect to Vercel for faster asset loading */}
+        <link rel="dns-prefetch" href="https://vercel.live" />
+
+        {/* Preconnect to common CDNs */}
+        <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+
         {locales &&
           locales.map((loc) => (
             <link

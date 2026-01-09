@@ -6,6 +6,7 @@ import Feedback from "@/components/feedback";
 import LandingTheme from "@/components/theme/landing-theme";
 import { Fraunces, Space_Grotesk } from "next/font/google";
 import BlogPrefetch from "@/components/prefetch/blog-prefetch";
+import PerformanceOptimizer from "@/components/performance/optimizer";
 
 const landingSans = Space_Grotesk({
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default async function DefaultLayout({
     <LandingTheme className={`${landingSans.variable} ${landingSerif.variable}`}>
       {page.header && <Header header={page.header} />}
       <BlogPrefetch locale={locale} />
+      <PerformanceOptimizer />
       <main className="overflow-x-hidden">{children}</main>
       {page.footer && <Footer footer={page.footer} />}
       {/* <Feedback socialLinks={page.footer?.social?.items} /> */}

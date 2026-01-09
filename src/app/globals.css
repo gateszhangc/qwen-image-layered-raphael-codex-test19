@@ -7,8 +7,34 @@
   * {
     @apply border-border outline-blue-500/50;
   }
+
   body {
     @apply bg-background text-foreground;
+    /* Enable smooth scrolling for better UX */
+    scroll-behavior: smooth;
+    /* Text rendering optimization */
+    text-rendering: optimizeSpeed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Optimize images for better loading performance */
+  img,
+  video {
+    /* Prevent layout shift */
+    height: auto;
+    max-width: 100%;
+    /* Enable hardware acceleration for animations */
+    transform: translateZ(0);
+  }
+
+  /* CSS containment for better rendering performance */
+  main {
+    contain: content;
+  }
+
+  section {
+    contain: layout style;
   }
 }
 
@@ -73,6 +99,7 @@ pre {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -83,6 +110,7 @@ pre {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -103,9 +131,12 @@ pre {
 }
 
 @keyframes float {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-20px);
   }
@@ -116,6 +147,7 @@ pre {
     opacity: 0;
     transform: translateY(16px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -123,9 +155,12 @@ pre {
 }
 
 @keyframes landing-drift {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translate3d(0, 0, 0) scale(1);
   }
+
   50% {
     transform: translate3d(18px, -12px, 0) scale(1.04);
   }
@@ -181,11 +216,9 @@ pre {
   position: sticky;
   top: 0;
   z-index: 40;
-  background: linear-gradient(
-    180deg,
-    hsl(27 24% 9% / 0.9) 0%,
-    hsl(27 24% 9% / 0.7) 100%
-  );
+  background: linear-gradient(180deg,
+      hsl(27 24% 9% / 0.9) 0%,
+      hsl(27 24% 9% / 0.7) 100%);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid hsl(28 18% 22% / 0.7);
 }
@@ -278,11 +311,9 @@ pre {
 .landing-raphael .landing-hero-chip {
   border-radius: 9999px;
   border: 1px solid hsl(28 18% 24% / 0.8);
-  background: linear-gradient(
-      120deg,
+  background: linear-gradient(120deg,
       hsl(28 22% 16% / 0.85) 0%,
-      hsl(26 18% 12% / 0.8) 100%
-    );
+      hsl(26 18% 12% / 0.8) 100%);
   box-shadow: inset 0 1px 0 hsl(36 30% 92% / 0.12),
     0 12px 30px hsl(0 0% 0% / 0.35);
   backdrop-filter: blur(10px);
@@ -294,11 +325,9 @@ pre {
 }
 
 .landing-raphael .landing-title-highlight {
-  background-image: linear-gradient(
-    120deg,
-    var(--raphael-gold),
-    var(--raphael-rose)
-  );
+  background-image: linear-gradient(120deg,
+      var(--raphael-gold),
+      var(--raphael-rose));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -316,12 +345,10 @@ pre {
 }
 
 .landing-raphael .landing-hero-button.bg-primary {
-  background-image: linear-gradient(
-    120deg,
-    hsl(40 78% 62%) 0%,
-    hsl(32 70% 54%) 50%,
-    hsl(18 65% 50%) 100%
-  );
+  background-image: linear-gradient(120deg,
+      hsl(40 78% 62%) 0%,
+      hsl(32 70% 54%) 50%,
+      hsl(18 65% 50%) 100%);
 }
 
 .landing-raphael .landing-hero-button.border {
@@ -370,11 +397,9 @@ pre {
   margin-top: 2.5rem;
   border-radius: 28px;
   border: 1px solid hsl(28 18% 24% / 0.85);
-  background: linear-gradient(
-    180deg,
-    hsl(28 22% 14% / 0.92) 0%,
-    hsl(24 20% 10% / 0.96) 100%
-  );
+  background: linear-gradient(180deg,
+      hsl(28 22% 14% / 0.92) 0%,
+      hsl(24 20% 10% / 0.96) 100%);
   box-shadow: 0 45px 90px hsl(0 0% 0% / 0.55);
   overflow: hidden;
 }
@@ -394,11 +419,9 @@ pre {
 .landing-raphael .landing-studio-shell__glow {
   position: absolute;
   inset: -20% 10% 40% 10%;
-  background: radial-gradient(
-    520px 240px at 30% 10%,
-    hsl(38 70% 60% / 0.22),
-    transparent 70%
-  );
+  background: radial-gradient(520px 240px at 30% 10%,
+      hsl(38 70% 60% / 0.22),
+      transparent 70%);
   opacity: 0.65;
   pointer-events: none;
 }
@@ -421,22 +444,18 @@ pre {
 }
 
 .landing-raphael .landing-studio-frame {
-  background: linear-gradient(
-    180deg,
-    hsl(28 22% 16% / 0.96) 0%,
-    hsl(24 20% 12% / 0.98) 100%
-  );
+  background: linear-gradient(180deg,
+      hsl(28 22% 16% / 0.96) 0%,
+      hsl(24 20% 12% / 0.98) 100%);
   border: 1px solid hsl(28 18% 24% / 0.85);
   box-shadow: inset 0 1px 0 hsl(36 30% 92% / 0.12),
     0 30px 80px hsl(0 0% 0% / 0.55);
 }
 
 .landing-raphael .studio-panel {
-  background: linear-gradient(
-    180deg,
-    hsl(28 22% 15% / 0.95) 0%,
-    hsl(24 20% 12% / 0.96) 100%
-  );
+  background: linear-gradient(180deg,
+      hsl(28 22% 15% / 0.95) 0%,
+      hsl(24 20% 12% / 0.96) 100%);
 }
 
 .landing-raphael .studio-canvas {
@@ -452,11 +471,9 @@ pre {
   position: relative;
   overflow: hidden;
   border-top: 1px solid hsl(28 18% 22% / 0.7);
-  background: linear-gradient(
-    180deg,
-    hsl(28 22% 12% / 0.4) 0%,
-    hsl(24 20% 10% / 0.2) 100%
-  );
+  background: linear-gradient(180deg,
+      hsl(28 22% 12% / 0.4) 0%,
+      hsl(24 20% 10% / 0.2) 100%);
 }
 
 .landing-raphael .landing-section::before {
@@ -471,24 +488,20 @@ pre {
 }
 
 .landing-raphael .landing-section--alt {
-  background: linear-gradient(
-    180deg,
-    hsl(28 22% 13% / 0.9) 0%,
-    hsl(24 20% 11% / 0.95) 100%
-  );
+  background: linear-gradient(180deg,
+      hsl(28 22% 13% / 0.9) 0%,
+      hsl(24 20% 11% / 0.95) 100%);
 }
 
-.landing-raphael .landing-section > * {
+.landing-raphael .landing-section>* {
   position: relative;
   z-index: 1;
 }
 
 .landing-raphael [data-slot="card"] {
-  background: linear-gradient(
-    180deg,
-    hsl(28 22% 17% / 0.92) 0%,
-    hsl(24 20% 12% / 0.96) 100%
-  );
+  background: linear-gradient(180deg,
+      hsl(28 22% 17% / 0.92) 0%,
+      hsl(24 20% 12% / 0.96) 100%);
   border-color: hsl(28 18% 24% / 0.8);
   box-shadow: inset 0 1px 0 hsl(36 30% 92% / 0.08),
     0 25px 60px hsl(0 0% 0% / 0.45);
@@ -507,16 +520,12 @@ pre {
 .landing-raphael .landing-cta {
   position: relative;
   border: 1px solid hsl(28 18% 24% / 0.8);
-  background: radial-gradient(
-      480px 240px at 50% 0%,
+  background: radial-gradient(480px 240px at 50% 0%,
       hsl(38 70% 60% / 0.2),
-      transparent 70%
-    ),
-    linear-gradient(
-      135deg,
+      transparent 70%),
+    linear-gradient(135deg,
       hsl(28 22% 14% / 0.95) 0%,
-      hsl(24 20% 10% / 0.95) 100%
-    );
+      hsl(24 20% 10% / 0.95) 100%);
   box-shadow: 0 35px 80px hsl(0 0% 0% / 0.5);
   overflow: hidden;
 }
@@ -535,11 +544,9 @@ pre {
 
 .landing-raphael .landing-footer {
   border-top: 1px solid hsl(28 18% 22% / 0.7);
-  background: linear-gradient(
-    180deg,
-    hsl(28 22% 12% / 0.95) 0%,
-    hsl(24 20% 9% / 0.98) 100%
-  );
+  background: linear-gradient(180deg,
+      hsl(28 22% 12% / 0.95) 0%,
+      hsl(24 20% 9% / 0.98) 100%);
 }
 
 .landing-raphael .landing-blog-section {
@@ -592,11 +599,9 @@ pre {
   height: 100%;
   border-radius: 20px;
   border: 1px solid hsl(28 18% 24% / 0.8);
-  background: linear-gradient(
-    180deg,
-    hsl(28 22% 14% / 0.95) 0%,
-    hsl(24 20% 11% / 0.97) 100%
-  );
+  background: linear-gradient(180deg,
+      hsl(28 22% 14% / 0.95) 0%,
+      hsl(24 20% 11% / 0.97) 100%);
   box-shadow: 0 30px 70px hsl(0 0% 0% / 0.45);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -606,11 +611,9 @@ pre {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(
-    360px 160px at 20% 0%,
-    hsl(38 70% 60% / 0.18),
-    transparent 70%
-  );
+  background: radial-gradient(360px 160px at 20% 0%,
+      hsl(38 70% 60% / 0.18),
+      transparent 70%);
   opacity: 0.6;
   pointer-events: none;
 }
@@ -750,6 +753,7 @@ pre {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   .landing-raphael .landing-hero-orb,
   .landing-raphael .landing-reveal {
     animation: none;
