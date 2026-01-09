@@ -1,0 +1,512 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "Qwen Image Layered",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Qwen Image Layered"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "工具",
+          "children": [
+            {
+              "title": "图层分离",
+              "url": "/#feature",
+              "description": "AI 分层与透明导出"
+            },
+            {
+              "title": "三步流程",
+              "url": "/#usage",
+              "description": "上传 -> 分层 -> 导出"
+            }
+          ]
+        },
+        {
+          "title": "功能",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "定价",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "博客",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "常见问题",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "Qwen Image Layered — 一张图拆成可编辑分层",
+    "highlight_text": "Qwen Image Layered",
+    "description": "上传照片或截图，选择 2-8 层，导出带透明通道的 PNG/WebP 分层素材，可直接用于 Figma、Photoshop 与动效制作。",
+    "features": [
+      "2-8 层分离",
+      "PNG/WebP 透明导出",
+      "提示词引导分层"
+    ],
+    "buttons": [
+      {
+        "title": "免费试用",
+        "url": "/#qwen-image-layered",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "/hero/1.webp",
+      "alt": "分层预览"
+    },
+    "images": [
+      {
+        "src": "/hero/1.webp",
+        "alt": "主视觉 1"
+      },
+      {
+        "src": "/hero/2.webp",
+        "alt": "主视觉 2"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": "false",
+    "title": "稳定可靠的生产级技术栈",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "面向创作者的分层工作台",
+    "label": "工作原理",
+    "description": "Qwen Image Layered 将一张平面图拆成可编辑的独立图层。",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "上传单张图片",
+        "description": "支持 JPG、PNG、WebP，自动分析画面结构。",
+        "icon": "RiNextjsFill"
+      },
+      {
+        "title": "设置图层与提示词",
+        "description": "选择 2-8 层，输入提示词引导分离目标。",
+        "icon": "RiDatabase2Line"
+      },
+      {
+        "title": "导出透明图层",
+        "description": "下载 PNG/WebP 带透明通道的素材，直接进入设计流程。",
+        "icon": "RiCloudyFill"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "false",
+    "name": "benefit",
+    "title": "为什么选择 Qwen Image Layered",
+    "label": "优势",
+    "description": "告别手工抠图，用 AI 快速生成分层素材。",
+    "items": [
+      {
+        "title": "智能分层",
+        "description": "主体、道具、背景自动拆分为独立图层。",
+        "icon": "RiNextjsFill",
+        "image": {
+          "src": "/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "补全隐藏区域",
+        "description": "自动补全被遮挡区域，图层更完整。",
+        "icon": "RiClapperboardAiLine",
+        "image": {
+          "src": "/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "透明导出",
+        "description": "PNG/WebP 带透明通道，直接用于设计工具。",
+        "icon": "RiCodeFill",
+        "image": {
+          "src": "/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": false,
+    "name": "benefit_showcase",
+    "label": "分层示例",
+    "title": "看看分层效果",
+    "description": "原图与分层后的对比展示。",
+    "items": [
+      {
+        "title": "产品图片",
+        "highlight": "主体 + 背景分离",
+        "description": "获得干净的主体和可替换的背景图层。",
+        "beforeSrc": "/before.png",
+        "afterSrc": "/after.png",
+        "beforeAlt": "编辑前",
+        "afterAlt": "编辑后",
+        "reverse": false
+      },
+      {
+        "title": "截图与 UI",
+        "highlight": "界面分层",
+        "description": "拆分 UI 与背景，便于动效或替换。",
+        "beforeSrc": "/before.png",
+        "afterSrc": "/after.png",
+        "beforeAlt": "编辑前",
+        "afterAlt": "编辑后",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "三步完成 Qwen Image Layered",
+    "description": "上传图片，设置图层深度，导出透明素材。",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "上传你的图片",
+        "description": "支持 JPG、PNG、WebP，模型自动分析画面结构。",
+        "image": {
+          "src": "/imgs/features/5.png"
+        }
+      },
+      {
+        "title": "设置图层与提示词",
+        "description": "选择 2-8 层，并用提示词引导分离目标。",
+        "image": {
+          "src": "/imgs/features/7.png"
+        }
+      },
+      {
+        "title": "导出透明图层",
+        "description": "下载 PNG 或 WebP 分层素材，可直接用于 Figma 或 Photoshop。",
+        "image": {
+          "src": "/imgs/features/8.png"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "试试 Qwen Image Layered",
+    "description": "上传图片，一键获得可编辑分层素材。"
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "Qwen Image Layered 工作台",
+    "description": "上传一次，调节图层并导出透明素材。",
+    "disabled": false,
+    "upload": {
+      "title": "拖拽图片到这里",
+      "description": "支持 PNG, JPG, JPEG, WebP 格式，最大 10MB",
+      "buttonText": "选择文件",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "编辑结果",
+      "textListTitle": "编辑设置",
+      "fontRecommendationTitle": "推荐效果",
+      "detectedFontLabel": "当前效果",
+      "similarFontsLabel": "其他效果",
+      "selectTextPrompt": "选择编辑选项进行应用"
+    },
+    "actions": {
+      "reuploadText": "重新上传"
+    },
+    "messages": {
+      "uploadSuccess": "图片上传成功",
+      "uploadError": "图片上传失败",
+      "recognitionSuccess": "分析完成",
+      "recognitionError": "分析失败",
+      "fontRecognitionSuccess": "生成完成",
+      "fontRecognitionError": "生成失败",
+      "processing": "处理中..."
+    }
+  },
+  "feature": {
+    "name": "feature",
+    "title": "Qwen Image Layered 专为分层素材打造",
+    "description": "把一张图拆成可编辑的图层资产，直接进入设计流程。",
+    "items": [
+      {
+        "title": "智能分层",
+        "description": "一张图拆成多个可编辑 RGBA 图层。",
+        "icon": "RiMusicLine"
+      },
+      {
+        "title": "提示词引导",
+        "description": "输入关键词，控制分离目标。",
+        "icon": "RiKey2Fill"
+      },
+      {
+        "title": "边缘保真",
+        "description": "细节更干净，透明边缘更自然。",
+        "icon": "RiDatabase2Line"
+      },
+      {
+        "title": "可调层数",
+        "description": "支持 2-8 层自由选择。",
+        "icon": "RiCloudy2Fill"
+      },
+      {
+        "title": "PNG/WebP 导出",
+        "description": "透明素材直接可用。",
+        "icon": "RiBarChart2Line"
+      },
+      {
+        "title": "快速迭代",
+        "description": "无需重建蒙版即可重新生成。",
+        "icon": "RiRobot2Line"
+      }
+    ]
+  },
+  "stats": {
+    "name": "stats",
+    "label": "数据",
+    "title": "为分层工作流而生",
+    "description": "从一张图到可编辑素材，只需要几步。",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "单图层数",
+        "label": "2-8",
+        "description": "按复杂度选择"
+      },
+      {
+        "title": "导出格式",
+        "label": "PNG/WebP",
+        "description": "透明通道"
+      },
+      {
+        "title": "流程",
+        "label": "3 步",
+        "description": "上传 -> 分层 -> 导出"
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "评价",
+    "title": "用户如何评价 Qwen Image Layered",
+    "description": "干净分层，更快交付，减少手工抠图。",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Lena Wu",
+        "label": "电商运营主管",
+        "description": "产品图直接分层导出，活动素材更快上线。",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Marco Silva",
+        "label": "设计师",
+        "description": "分层素材可以直接进 Figma，省掉手工蒙版。",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Anika Patel",
+        "label": "摄影师",
+        "description": "主体和背景分离后，交付速度提升很多。",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "James Rowe",
+        "label": "内容创作者",
+        "description": "动效模板需要分层素材，这里一步完成。",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Sara Kim",
+        "label": "营销经理",
+        "description": "分层导出让品牌物料更统一、更易复用。",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "David Chen",
+        "label": "开发者",
+        "description": "UI 截图分层后，演示和迭代更轻松。",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "常见问题",
+    "title": "常见问题",
+    "description": "需要帮助？欢迎邮件至 support@qwen-image-layered.space。",
+    "items": [
+      {
+        "title": "支持哪些文件格式？",
+        "description": "支持 JPG、PNG、WebP，最大 10MB。"
+      },
+      {
+        "title": "一次能生成多少层？",
+        "description": "可选 2-8 层，按需调节。"
+      },
+      {
+        "title": "导出格式是什么？",
+        "description": "支持 PNG 或 WebP 透明图层。"
+      },
+      {
+        "title": "图片会保存吗？",
+        "description": "为便于预览和下载会保存上传与结果，详情见隐私政策。"
+      },
+      {
+        "title": "可以用提示词控制分层吗？",
+        "description": "可以，输入关键词引导分离目标。"
+      },
+      {
+        "title": "是否收费？",
+        "description": "基础功能免费，高分辨率或高级功能可能需要付费。"
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "开始分层",
+    "description": "上传图片，几分钟拿到可编辑图层。",
+    "buttons": [
+      {
+        "title": "免费试用",
+        "url": "/#qwen-image-layered",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "Qwen Image Layered",
+      "description": "专业的分层图片工具，把平面图变成可编辑素材。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Qwen Image Layered"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • Qwen Image Layered. 保留所有权利。",
+    "nav": {
+      "items": [
+        {
+          "title": "关于",
+          "children": [
+            {
+              "title": "功能",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "定价",
+              "url": "/pricing",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "邮箱",
+          "icon": "RiMailLine",
+          "url": "mailto:support@qwen-image-layered.space",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

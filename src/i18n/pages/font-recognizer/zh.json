@@ -1,0 +1,35 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "Image Flipper",
+    "description": "上传图片进行专业反色处理",
+    "disabled": false,
+    "upload": {
+      "title": "拖拽图片到这里",
+      "description": "支持 PNG, JPG, JPEG, WebP 格式，最大 10MB",
+      "buttonText": "选择文件",
+      "maxSize": 10,
+      "acceptedFormats": ["PNG", "JPG", "JPEG", "WebP"]
+    },
+    "results": {
+      "imageTitle": "清理结果",
+      "textListTitle": "检测到的文字区域",
+      "fontRecommendationTitle": "修复建议",
+      "detectedFontLabel": "选中的区域",
+      "similarFontsLabel": "备用填充",
+      "selectTextPrompt": "选择一个文字块进行去除"
+    },
+    "actions": {
+      "reuploadText": "重新上传"
+    },
+    "messages": {
+      "uploadSuccess": "图片上传成功",
+      "uploadError": "图片上传失败",
+      "recognitionSuccess": "检测完成",
+      "recognitionError": "检测失败",
+      "fontRecognitionSuccess": "去文字完成",
+      "fontRecognitionError": "去文字失败",
+      "processing": "处理中..."
+    }
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "title": "Qwen-Image-Layered - Free AI image editing and enhancement",
+    "description": "Qwen-Image-Layered lets you upload photos, screenshots, or any images to instantly edit, enhance, and transform them with AI-powered tools.",
+    "keywords": "qwen image layered, qwen-image-layered, ai image editing, image enhancement, photo editor, ai image tools, image transformation, smart image editing, online photo editor"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Latest news, updates, and tutorials about Qwen-Image-Layered and AI image editing.",
+    "read_more_text": "Read More"
+  },
+  "user": {
+    "sign_in": "Sign In",
+    "sign_out": "Sign Out",
+    "credits": "Credits",
+    "api_keys": "API Keys",
+    "my_orders": "My Orders",
+    "my_invites": "My Invites",
+    "user_center": "User Center",
+    "admin_system": "Admin System"
+  },
+  "sign_modal": {
+    "sign_in_title": "Sign in to Qwen-Image-Layered",
+    "sign_in_description": "Access your Qwen-Image-Layered account to edit and enhance images with AI",
+    "sign_up_title": "Join Qwen-Image-Layered",
+    "sign_up_description": "Create your Qwen-Image-Layered account",
+    "email_title": "Email",
+    "email_placeholder": "Enter your email address",
+    "password_title": "Password",
+    "password_placeholder": "Enter your password",
+    "forgot_password": "Forgot password?",
+    "or": "Or",
+    "continue": "Continue to Qwen-Image-Layered",
+    "no_account": "New to Qwen-Image-Layered?",
+    "email_sign_in": "Sign in with Email",
+    "google_sign_in": "Continue with Google",
+    "github_sign_in": "Continue with GitHub",
+    "close_title": "Close",
+    "cancel_title": "Cancel"
+  },
+  "my_orders": {
+    "title": "My Orders",
+    "no_orders": "No orders found",
+    "tip": "",
+    "activate_order": "Activate Order",
+    "actived": "Activated",
+    "join_discord": "Join Discord",
+    "read_docs": "Read Docs",
+    "table": {
+      "order_no": "Order No",
+      "email": "Email",
+      "product_name": "Product Name",
+      "amount": "Amount",
+      "paid_at": "Paid At",
+      "github_username": "GitHub Username",
+      "status": "Status",
+      "manage_billing": "Manage Billing",
+      "interval": "Interval",
+      "interval_month": "Monthly",
+      "interval_year": "Annually",
+      "interval_one_time": "One-Time"
+    }
+  },
+  "my_credits": {
+    "title": "My Credits",
+    "left_tip": "left credits: {left_credits}",
+    "no_credits": "No credits records",
+    "recharge": "Recharge",
+    "table": {
+      "trans_no": "Trans No",
+      "trans_type": "Trans Type",
+      "credits": "Credits",
+      "updated_at": "Updated At",
+      "status": "Status",
+      "expired_at": "Expired At",
+      "created_at": "Created At"
+    }
+  },
+  "api_keys": {
+    "title": "API Keys",
+    "tip": "Please keep your apikey safe to avoid leaks",
+    "no_api_keys": "No API Keys",
+    "create_api_key": "Create API Key",
+    "table": {
+      "name": "Name",
+      "key": "Key",
+      "created_at": "Created At"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API Key Name",
+      "submit": "Submit"
+    }
+  },
+  "my_invites": {
+    "title": "My Invites",
+    "description": "View your invite records",
+    "no_invites": "No invite records found",
+    "my_invite_link": "My Invite Link",
+    "edit_invite_link": "Edit Invite Link",
+    "copy_invite_link": "Copy Invite Link",
+    "invite_code": "Invite Code",
+    "invite_tip": "Invite friends to Qwen-Image-Layered and earn rewards.",
+    "invite_balance": "Invite Reward Balance",
+    "total_invite_count": "Total Invite Count",
+    "total_paid_count": "Total Paid Count",
+    "total_award_amount": "Total Award Amount",
+    "update_invite_code": "Set Invite Code",
+    "update_invite_code_tip": "Input your custom invite code",
+    "update_invite_button": "Save",
+    "no_orders": "You need a paid plan before inviting others",
+    "no_affiliates": "You're not allowed to invite others, please contact us to apply for permission.",
+    "table": {
+      "invite_time": "Invite Time",
+      "invite_user": "Invite User",
+      "status": "Status",
+      "reward_percent": "Reward Percent",
+      "reward_amount": "Reward Amount",
+      "pending": "Pending",
+      "completed": "Completed"
+    }
+  },
+  "feedback": {
+    "title": "Feedback",
+    "description": "We'd love to hear what went well or how we can improve the product experience.",
+    "submit": "Submit",
+    "loading": "Submitting...",
+    "contact_tip": "Other ways to contact us",
+    "rating_tip": "How do you feel about Qwen-Image-Layered?",
+    "placeholder": "Leave your words here..."
+  },
+  "outfit_generator": {
+    "title": "Qwen-Image-Layered - Edit, enhance, and transform images instantly",
+    "description": "Upload photos, screenshots, or any images to edit, enhance, transform, upscale resolution, or refine composition with AI-powered tools.",
+    "upload_label": "Upload Your Image",
+    "upload_placeholder": "Click or drag to upload (JPG, PNG, GIF, WebP)",
+    "upload_required": "Required",
+    "prompt_label": "Describe the expansion (optional)",
+    "prompt_placeholder": "E.g., 'extend background left and right', 'outpaint sky', 'widen canvas for a banner', 'add room around the subject'...",
+    "prompt_required": "Optional notes",
+    "character_count": "{count}/500",
+    "generate_button": "Expand Image",
+    "generating_button": "Expanding...",
+    "credits_label": "Your Credits",
+    "cost_label": "Cost: {cost} credits per expansion",
+    "insufficient_credits": "Insufficient credits. Please recharge to continue expanding images.",
+    "errors": {
+      "no_image": "Please upload an image to expand",
+      "no_prompt": "Please describe how you want to expand the image",
+      "invalid_format": "Only JPG, PNG, GIF, WebP formats are supported",
+      "file_too_large": "Image size cannot exceed 5MB",
+      "generation_failed": "Image expansion failed, please try again",
+      "download_failed": "Download failed, please try again"
+    },
+    "success": {
+      "generated": "Your expanded image is ready!"
+    }
+  },
+  "outfit_gallery": {
+    "title": "Recent expansions",
+    "description": "See the latest images expanded by our tool. Preview before/after and export the result.",
+    "download_hint": "Click to download the expanded image",
+    "no_outfits": "No expansions yet. Upload an image to start expanding!"
+  },
+  "nano_banana_pro": {
+    "title": "Qwen-Image-Layered - AI Image Generator",
+    "description": "Generate high-quality images using Qwen-Image-Layered AI model with text-to-image and image-to-image modes",
+    "hero": {
+      "badge": "New Qwen-Image-Layered AI Image Generator",
+      "title": "Unleash Infinite AI Creativity",
+      "subtitle": "Transform your imagination into stunning visuals with Qwen-Image-Layered's advanced AI model. Supports both text-to-image and image-to-image creation modes.",
+      "features": {
+        "text_to_image": "Text to Image",
+        "image_to_image": "Image to Image",
+        "high_quality": "High Quality Output"
+      },
+      "buttons": {
+        "start_creating": "Start Creating",
+        "view_gallery": "View Gallery"
+      },
+      "stats": {
+        "daily_images": "Daily Generated Images",
+        "satisfaction": "User Satisfaction",
+        "generation_time": "Average Generation Time"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "Image to Image",
+        "text_to_image": "Text to Image"
+      },
+      "model": "Model",
+      "reference_images": "Reference Images",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "Drag and drop images here",
+        "or_click": "or click to browse",
+        "supported_formats": "Supports: JPEG, PNG, WebP (max 10MB)",
+        "add_more": "Add more"
+      },
+      "prompt": "Prompt",
+      "prompt_placeholder_image": "Describe how to transform the image...",
+      "prompt_placeholder_text": "Describe the image you want to generate...",
+      "aspect_ratio": "Aspect Ratio",
+      "resolution": "Resolution",
+      "output_count": "Output Count",
+      "output_count_range": "Min {min}, Max {max}",
+      "output_format": "Output Format",
+      "generate_button": "Generate Now",
+      "generating": "Generating...",
+      "clear_images": "Clear all images",
+      "output_gallery": "Your Generated Image",
+      "view_all": "View All",
+      "generating_message": "Creating your masterpiece...",
+      "generating_submessage": "Our Qwen-Image-Layered model is working its magic. This usually takes a few seconds.",
+      "example": "Example"
+    },
+    "my_creations": {
+      "title": "My Creations",
+      "description": "View and manage your AI-generated images - preview and download with one click",
+      "search_placeholder": "Search creations...",
+      "view_all": "View All ({count})",
+      "no_results": "No matching creations found",
+      "no_results_message": "Try using different keywords or clear the search to view all creations.",
+      "clear_search": "Clear Search",
+      "empty_state": "No creations yet",
+      "empty_message": "Start using Qwen-Image-Layered to create your first AI-generated image!",
+      "start_creating": "Start Creating",
+      "download": "Download",
+      "delete": "Delete",
+      "total_count": "Total {count} creations",
+      "search_results": "(Search: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "Text to Image",
+        "IMAGE_TO_IMAGE": "Image to Image"
+      }
+    },
+    "errors": {
+      "enter_prompt": "Please enter a prompt",
+      "upload_reference": "Image-to-image mode requires uploading reference images",
+      "generation_failed": "Generation failed, please try again",
+      "upload_success": "Image uploaded successfully",
+      "upload_failed": "Upload failed",
+      "delete_success": "Image deleted",
+      "delete_failed": "Delete failed, please try again",
+      "download_started": "Download started",
+      "file_too_large": "File size cannot exceed {size}MB",
+      "unsupported_format": "Unsupported file format. Supported formats: {formats}",
+      "retry": "Retry",
+      "dismiss": "Dismiss"
+    },
+    "loading": {
+      "default": "Loading...",
+      "generation": "Creating your masterpiece...",
+      "generation_message": "Our Qwen-Image-Layered model is working its magic. This usually takes a few seconds.",
+      "upload": "Uploading image...",
+      "upload_message": "Please wait while your image is uploaded to the cloud."
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "Layered Studio",
+      "title": "Qwen Image Layered",
+      "description": "Decompose a single image into clean, editable layers for design and motion.",
+      "cta": "Free trial",
+      "cta_hint": "Upload one image to begin",
+      "features": [
+        "2-8 AI layers per image",
+        "Transparent PNG/WebP export",
+        "Prompt-guided separation"
+      ]
+    },
+    "upload": {
+      "title": "Upload",
+      "subtitle": "JPG, PNG, or WebP up to 10MB",
+      "action": "Upload image",
+      "drop": "Drop your image here",
+      "or_click": "or click to browse",
+      "supported_formats": "Supports: JPEG, PNG, WebP (max 10MB)"
+    },
+    "prompt": {
+      "label": "Prompt",
+      "placeholder": "Describe the layers you want (e.g., subject, props, background)"
+    },
+    "advanced": {
+      "title": "Advanced Settings",
+      "prompt_label": "Prompt (Optional)",
+      "prompt_placeholder": "Please enter the prompt to describe the image. (Optional)",
+      "negative_prompt_label": "Negative Prompt (Optional)",
+      "negative_prompt_placeholder": "Describe what should be excluded from the layers.",
+      "seed": "Seed",
+      "randomize_seed": "Randomize seed",
+      "guidance_scale": "True guidance scale",
+      "inference_steps": "Number of inference steps",
+      "cfg_normalization": "Whether enable CFG normalization",
+      "auto_caption_language": "Automatic caption language if no prompt provided, True for EN, False for ZH",
+      "layer_count": "Layer count",
+      "layer_range": "Min {min}, Max {max}",
+      "output_format": "Output format"
+    },
+    "actions": {
+      "decompose": "Decompose!",
+      "sign_in_to_decompose": "Sign In to Decompose!",
+      "generating": "Decomposing..."
+    },
+    "results": {
+      "title": "Results",
+      "subtitle": "Layered outputs appear here after decomposition.",
+      "download_pptx": "Download PPTX",
+      "download_zip": "Download ZIP",
+      "packaging": "Packaging...",
+      "generating_title": "Decomposing your image...",
+      "generating_subtitle": "Creating layered assets. This usually takes a few seconds.",
+      "layer_label": "Layer {index}",
+      "layer_description": "Layered asset",
+      "empty_title": "No layers yet",
+      "empty_subtitle": "Upload an image and click Decompose! to generate layers.",
+      "success": "Layers generated successfully!",
+      "download_ready": "Download ready"
+    },
+    "examples": {
+      "title": "Examples",
+      "subtitle": "See how a source image breaks into clean layers.",
+      "labels": {
+        "source": "Source",
+        "layer": "Layer {index}",
+        "sample": "Example {index}"
+      },
+      "rows": {
+        "primary": "Example Set 01",
+        "secondary": "Example Set 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "Please upload a reference image first",
+      "generation_failed": "Generation failed, please try again",
+      "upload_success": "Image uploaded successfully",
+      "upload_failed": "Upload failed",
+      "download_failed": "Download failed, please try again"
+    }
+  }
+}

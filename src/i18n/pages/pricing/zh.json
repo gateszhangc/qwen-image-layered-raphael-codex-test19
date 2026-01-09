@@ -1,0 +1,320 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "定价",
+    "title": "定价",
+    "description": "选择适合的专业图片扩展处理方案。",
+    "groups": [
+      {
+        "name": "one-time",
+        "title": "一次性付费"
+      },
+      {
+        "name": "monthly",
+        "title": "月付",
+        "is_featured": true,
+        "label": "节省 15%"
+      },
+      {
+        "name": "yearly",
+        "title": "年付"
+      }
+    ],
+    "items": [
+      {
+        "title": "入门版",
+        "description": "体验专业图片扩展处理。",
+        "features_title": "包含功能",
+        "features": [
+          "100 次图片扩展积分，有效期 1 个月",
+          "精准特征检测与增强",
+          "标准扩展质量",
+          "前后对比导出",
+          "个人使用授权",
+          "邮件支持"
+        ],
+        "interval": "one-time",
+        "amount": 9900,
+        "cn_amount": 69900,
+        "currency": "USD",
+        "price": "$99",
+        "original_price": "$199",
+        "unit": "一次性",
+        "is_featured": false,
+        "tip": "一次付费，体验图片扩展处理。",
+        "button": {
+          "title": "开始使用 Image Describer",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter",
+        "product_name": "Image Describer 入门版",
+        "credits": 100,
+        "valid_months": 1,
+        "group": "one-time"
+      },
+      {
+        "title": "标准版",
+        "description": "适合频繁扩展处理的团队。",
+        "label": "热门",
+        "features_title": "包含入门版所有功能，另加",
+        "features": [
+          "200 次图片扩展积分，有效期 3 个月",
+          "更高分辨率上传",
+          "优先处理",
+          "批量增强（最多 4 张）",
+          "提示词辅助优化",
+          "商业使用授权",
+          "优先邮件支持",
+          "新功能优先体验"
+        ],
+        "interval": "one-time",
+        "amount": 19900,
+        "cn_amount": 139900,
+        "currency": "USD",
+        "price": "$199",
+        "original_price": "$299",
+        "unit": "一次性",
+        "is_featured": true,
+        "tip": "一次付费，快速获得扩展效果。",
+        "button": {
+          "title": "开始使用 Image Describer",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "standard",
+        "product_name": "Image Describer 标准版",
+        "credits": 200,
+        "valid_months": 3,
+        "group": "one-time"
+      },
+      {
+        "title": "高级版",
+        "description": "大规模增强与最高品质的选择。",
+        "features_title": "包含标准版所有功能，另加",
+        "features": [
+          "300 次图片扩展积分，有效期 1 年",
+          "8K 上传支持",
+          "批量增强（最多 10 张）",
+          "API 接入",
+          "白标授权",
+          "专属支持",
+          "新功能抢先体验"
+        ],
+        "interval": "one-time",
+        "amount": 29900,
+        "cn_amount": 199900,
+        "currency": "USD",
+        "price": "$299",
+        "original_price": "$399",
+        "unit": "一次性",
+        "is_featured": false,
+        "tip": "一次付费，满足高频和高要求。",
+        "button": {
+          "title": "开始使用 Image Describer",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium",
+        "product_name": "Image Describer 高级版",
+        "credits": 300,
+        "valid_months": 12,
+        "group": "one-time"
+      },
+      {
+        "title": "入门版",
+        "description": "体验专业图片扩展处理。",
+        "features_title": "包含功能",
+        "features": [
+          "100 次图片扩展积分，有效期 1 个月",
+          "精准特征检测与增强",
+          "标准扩展质量",
+          "前后对比导出",
+          "个人使用授权",
+          "邮件支持"
+        ],
+        "interval": "month",
+        "amount": 8900,
+        "currency": "USD",
+        "price": "$89",
+        "original_price": "$99",
+        "unit": "/ 月",
+        "is_featured": false,
+        "tip": "月付，随用随停。",
+        "button": {
+          "title": "开始图片扩展",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "Image Describer 入门版月付",
+        "credits": 100,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "标准版",
+        "description": "适合频繁扩展处理的团队。",
+        "label": "热门",
+        "features_title": "包含入门版所有功能，另加",
+        "features": [
+          "200 次图片扩展积分，有效期 1 个月",
+          "更高分辨率上传",
+          "优先处理",
+          "批量增强（最多 4 张）",
+          "提示词辅助优化",
+          "商业使用授权",
+          "优先邮件支持",
+          "新功能优先体验"
+        ],
+        "interval": "month",
+        "amount": 16900,
+        "currency": "USD",
+        "price": "$169",
+        "original_price": "$199",
+        "unit": "/ 月",
+        "is_featured": true,
+        "tip": "月付，快速启动增强需求。",
+        "button": {
+          "title": "开始图片扩展",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "standard-monthly",
+        "product_name": "Image Describer 标准版月付",
+        "credits": 200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "高级版",
+        "description": "大规模增强与最高品质的选择。",
+        "features_title": "包含标准版所有功能，另加",
+        "features": [
+          "300 次图片扩展积分，有效期 1 个月",
+          "8K 上传支持",
+          "批量增强（最多 10 张）",
+          "API 接入",
+          "白标授权",
+          "专属支持",
+          "新功能抢先体验"
+        ],
+        "interval": "month",
+        "amount": 24900,
+        "currency": "USD",
+        "price": "$249",
+        "original_price": "$299",
+        "unit": "/ 月",
+        "is_featured": false,
+        "tip": "月付，满足高频和高要求。",
+        "button": {
+          "title": "开始图片扩展",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "Image Describer 高级版月付",
+        "credits": 300,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "入门版",
+        "description": "体验专业图片扩展处理。",
+        "features_title": "包含功能",
+        "features": [
+          "100 次图片扩展积分，有效期 1 年",
+          "精准特征检测与增强",
+          "标准扩展质量",
+          "前后对比导出",
+          "个人使用授权",
+          "邮件支持"
+        ],
+        "interval": "year",
+        "amount": 82800,
+        "currency": "USD",
+        "price": "$69",
+        "original_price": "$89",
+        "unit": "/ 月",
+        "is_featured": false,
+        "tip": "年付，长期稳定使用。",
+        "button": {
+          "title": "开始图片扩展",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "Image Describer 入门版年付",
+        "credits": 1200,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "标准版",
+        "description": "适合频繁扩展处理的团队。",
+        "label": "热门",
+        "features_title": "包含入门版所有功能，另加",
+        "features": [
+          "200 次图片扩展积分，有效期 1 年",
+          "更高分辨率上传",
+          "优先处理",
+          "批量增强（最多 4 张）",
+          "提示词辅助优化",
+          "商业使用授权",
+          "优先邮件支持",
+          "新功能优先体验"
+        ],
+        "interval": "year",
+        "amount": 154800,
+        "currency": "USD",
+        "price": "$129",
+        "original_price": "$169",
+        "unit": "/ 月",
+        "is_featured": true,
+        "tip": "年付，适合稳定的团队使用。",
+        "button": {
+          "title": "开始图片扩展",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "standard-yearly",
+        "product_name": "Image Describer 标准版年付",
+        "credits": 2400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "高级版",
+        "description": "大规模增强与最高品质的选择。",
+        "features_title": "包含标准版所有功能，另加",
+        "features": [
+          "300 次图片扩展积分，有效期 1 年",
+          "8K 上传支持",
+          "批量增强（最多 10 张）",
+          "API 接入",
+          "白标授权",
+          "专属支持",
+          "新功能抢先体验"
+        ],
+        "interval": "year",
+        "amount": 226800,
+        "currency": "USD",
+        "price": "$189",
+        "original_price": "$249",
+        "unit": "/ 月",
+        "is_featured": false,
+        "tip": "年付，满足高频和高要求。",
+        "button": {
+          "title": "开始图片扩展",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "Image Describer 高级版年付",
+        "credits": 3600,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}
