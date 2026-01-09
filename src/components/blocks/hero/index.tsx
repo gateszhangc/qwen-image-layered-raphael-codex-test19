@@ -173,6 +173,7 @@ export default function Hero({ hero }: { hero: HeroType }) {
                                 loading={index === 0 ? "eager" : "lazy"}
                                 fetchPriority={index === 0 ? "high" : "auto"}
                                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 512px"
+                                unoptimized
                               />
                             </div>
                           </CarouselItem>
@@ -223,6 +224,7 @@ export default function Hero({ hero }: { hero: HeroType }) {
                           loading="eager"
                           fetchPriority="high"
                           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 512px"
+                          unoptimized
                         />
                       </div>
                     </div>
