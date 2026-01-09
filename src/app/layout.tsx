@@ -39,13 +39,7 @@ export default async function RootLayout({
         {/* Favicon with sizes for better performance */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
 
-        {/* DNS Prefetch and Preconnect for faster external resource loading */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-
         {/* DNS prefetch for common external resources */}
-        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
         <link rel="dns-prefetch" href="https://vercel.live" />
         <link rel="dns-prefetch" href="https://replicate.delivery" />
         <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />

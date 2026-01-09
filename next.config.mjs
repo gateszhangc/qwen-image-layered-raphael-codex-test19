@@ -49,8 +49,6 @@ const nextConfig = {
   experimental: {
     // Enable MDX RS for faster MDX compilation
     mdxRs: true,
-    // Web Vitals attribution for better debugging
-    webVitalsAttribution: ["CLS", "LCP", "FCP", "TTFB", "INP"],
     // Optimize CSS chunks
     cssChunking: "loose",
     // Optimize more package imports to reduce bundle size
